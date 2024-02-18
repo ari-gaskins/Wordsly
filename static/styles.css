@@ -1,0 +1,52 @@
+/* Wordsly Stylesheet*/
+
+html, body {
+    background-color: #44475A; 
+}
+
+/* heading */
+h1#heading {
+    display: block;
+    color: #F8F8F2;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+}
+
+/* word bubble setup */
+.word-bubbles {
+    min-width: 500px;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+.word-bubble-rows {
+    display: block;
+    padding: 0px;
+    margin: 0px auto;
+    justify-items: center;
+}
+
+.bubble {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border: 5px solid #8BE9FD;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* submit button */
+button {
+    background-color: #BD93F9;
+    color: #F8F8F2;
+    font-family: "Anta", sans-serif;
+    font-size: 2em;
+    border-radius: 10px;
+    border: 1px solid #BD93F9; 
+    width: 120px;
+    height: 60px;
+    margin: 50px auto 50px auto;
+}

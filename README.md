@@ -1,7 +1,7 @@
 # Wordsly - Wordle Clone
 
 ## Pseudocode
-* generate random, common, 5-letter word for answer
+* [x] generate random, common, 5-letter word for answer
 * get 5-letter word for user
 * display typing in real time
 * check if user's word matches generated word
@@ -22,5 +22,12 @@
 
 ## Stack 
 * Flask - backend, API
-* Jinja - connecting backend to frontend
 * HTML, CSS, & Vanilla JavaScript - frontend, animations (in the future)
+
+## Fancy Features to Try
+* try switching to React?
+* show letters already chosen
+* confetti animation for winners
+* fire animation for losers
+* tell the user the definition of the generated word at the end of the game
+    * set up API requests to dictionary API for this
